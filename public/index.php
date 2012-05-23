@@ -9,6 +9,8 @@ require_once("../facebook/facebook.php");
 
   $facebook = new Facebook($config);
   
+  $user_id = $facebook->getUser();
+  
 ?>
 <!DOCTYPE html>
 <html lang="en">
